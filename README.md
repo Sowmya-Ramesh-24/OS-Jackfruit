@@ -183,7 +183,7 @@ sudo dmesg | tail -5   # should show: Module unloaded.
 
 ### Screenshot 6 — Hard-Limit Enforcement
 
-![Screenshot 6](screenshots/ss6_hardlimit_ps.png)
+![Screenshot 6](screenshots/ss6_hardlimit.png)
 
 **Caption (dmesg part):** The kernel module emits a `HARD LIMIT` event for `mem1` (rss=59,256,832 bytes ≈ 56.5 MiB > hard limit 52,428,800 bytes = 50 MiB) and sends `SIGKILL` to the process.
 
