@@ -39,7 +39,7 @@ This produces: `engine`, `monitor.ko`, `cpu_hog`, `io_pulse`, `memory_hog`.
 ### Prepare Root Filesystems
 
 ```bash
-cd ~/OS_Jackfruit
+cd ~/OS-Jackfruit
 
 # Download Alpine base rootfs (only needed once)
 mkdir rootfs-base
