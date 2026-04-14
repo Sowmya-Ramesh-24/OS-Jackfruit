@@ -201,9 +201,9 @@ sudo dmesg | tail -5   # should show: Module unloaded.
 
 ### Screenshot 8 — Clean Teardown
 
-![Screenshot 8a](screenshots/ss8a.png)
-![Screenshot 8b](screenshots/ss8b.png)
-![Screenshot 8c](screenshots/ss8c.png)
+![Screenshot 8a](screenshots/ss8_a.png)
+![Screenshot 8b](screenshots/ss8_b.png)
+![Screenshot 8c](screenshots/ss8_c.png)
 
 **Caption (defunct check):** `ps aux | grep defunct` shows only pre-existing Ubuntu system zombies (snap, ubuntu-advantage, ubuntu-report — present since system boot at 10:14, unrelated to our runtime). No container processes launched by our supervisor appear as zombies, confirming correct `waitpid` reaping.
 
